@@ -15,8 +15,8 @@ function Header() {
 
   return (
     <header
-      className="py-1 px-7 flex justify-between items-center top-0 z-50 w-full 
-    border-b-[0.3px] border-[#babaff]"
+      className="py-1 px-7 flex justify-between items-center sticky top-0 z-50 w-full 
+    border-b-[0.3px] border-[#babaff] bg-blur backdrop-blur-sm"
     >
       {/* left section */}
       <div className="flex lg:gap-14 gap-4 items-center">
