@@ -1,6 +1,8 @@
+import Arena from "./components/Arena"
 import Characters from "./components/Characters"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
+
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
         <Header />
         <Hero />
         <Characters />
+        <Arena />
+        
     </div>
   )
 }
